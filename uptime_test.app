@@ -2,7 +2,7 @@
 
 ## Default Variables - Required ##
 
-##### Port Number: 3001
+##### Port Number: 3005
 ##### Time Zone: America/New_York
 ##### AppData Path: /pg/appdata/uptime_test
 ##### Version Tag: 1

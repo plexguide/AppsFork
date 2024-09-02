@@ -2,9 +2,9 @@
 
 ## Default Variables - Required ##
 
-##### Port Number: 3005
+##### Port Number: 3001
 ##### Time Zone: America/New_York
-##### AppData Path: /pg/appdata/uptime_test
+##### AppData Path: /pg/appdata/uptimekuma
 ##### Version Tag: 1
 ##### Expose:
 
@@ -21,11 +21,13 @@ services:
     volumes:
       - ${appdata_path}:/app/data
     restart: unless-stopped
+    networks:
+      - plexguide
+
+networks:
+  plexguide:
+    external: true
 EOF
 }
 
-# Verify the deployment
-docker ps --filter name=${app_name}
-echo "Logs for ${app_name}:"
-docker logs ${app_name}
 }

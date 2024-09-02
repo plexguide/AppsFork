@@ -4,7 +4,7 @@
 
 ##### Port Number: 29999
 ##### Time Zone: America/New_York
-##### AppData Path: /pg/appdata/netdata_test
+##### AppData Path: /pg/appdata/netdata
 ##### Version Tag: latest
 ##### Expose:
 
@@ -37,6 +37,12 @@ services:
     security_opt:
       - apparmor=unconfined
     restart: unless-stopped
+    networks:
+      - plexguide
+
+networks:
+  plexguide:
+    external: true
 EOF
 }
 

@@ -1,12 +1,16 @@
 #!/bin/bash
 
-## Default Variables - Required ##
+# ================================ DEFAULT VALUES ================================ #
 
-##### Port Number: 3001
-##### Time Zone: America/New_York
-##### AppData Path: /pg/appdata/uptimekuma
-##### Version Tag: 1
-##### Expose:
+default_variables() {
+port_number=45000
+time_zone=America/New_York
+appdata_path=/pg/appdata/uptimekuma
+version_tag=1
+expose=
+}
+
+# ================================ CONTAINER DEPLOYMENT ================================ #
 
 deploy_container() {
 
@@ -31,3 +35,10 @@ EOF
 }
 
 }
+
+# ================================ MENU GENERATION ================================ #
+# NOTE: Generates Menus for the App. Requires 4 #'s' - See Wiki for Details
+
+
+# ================================ EXTRA FUNCTIONS ================================ #
+# NOTE: Extra Functions for Script Organization

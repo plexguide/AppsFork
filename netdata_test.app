@@ -1,14 +1,17 @@
 #!/bin/bash
 
-## Default Variables - Required ##
+# ================================ DEFAULT VALUES ================================ #
 
-##### Port Number: 29999
-##### Time Zone: America/New_York
-##### AppData Path: /pg/appdata/netdata
-##### Version Tag: latest
-##### Expose:
+default_variables() {
+port_number=29999
+time_zone=America/New_York
+appdata_path=/pg/appdata/netdata
+version_tag=latest
+expose=
+}
 
-# Function to deploy Netdata using Docker Compose
+# ================================ CONTAINER DEPLOYMENT ================================ #
+
 deploy_container() {
 
 create_docker_compose() {
@@ -47,3 +50,10 @@ EOF
 }
 
 }
+
+# ================================ MENU GENERATION ================================ #
+# NOTE: Generates Menus for the App. Requires 4 #'s' - See Wiki for Details
+
+
+# ================================ EXTRA FUNCTIONS ================================ #
+# NOTE: Extra Functions for Script Organization

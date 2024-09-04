@@ -10,8 +10,8 @@ default_variables() {
     appdata_path=/pg/appdata/uptimekuma
     version_tag=1
     expose=
-    subdomain="uptime"  # Subdomain to use for Traefik routing
-    domain="9705.us"  # Base domain for Traefik routing
+    subdomain=uptime  # Subdomain to use for Traefik routing
+    domain=9705.us  # Base domain for Traefik routing
 }
 
 # ================================ CONTAINER DEPLOYMENT ================================ #

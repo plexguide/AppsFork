@@ -1,11 +1,5 @@
 ##### WANT TO HELP? CLICK THE ★ (STAR LOGO) in the Upper-Right! 
 
-<p align="left">
-  <a href="https://discord.gg/93PYgqDX9T">
-    <img src="https://i.imgur.com/XI1WGxi.png" alt="Menu Example" width="15%">
-  </a>
-</p>
-
 NOTE: Keep in mind to Fork this repo. Then when deploying PlexGuide undercustom apps, it should be your username and then appsfork (if you do not change the name)
 
 ## PlexGuide Installation

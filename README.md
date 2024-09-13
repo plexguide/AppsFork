@@ -1,14 +1,15 @@
-##### WANT TO HELP? CLICK THE ★ (STAR LOGO) in the Upper-Right! 
+<h3 align="center">Want to Help? Click the Star in the Upper-Right Corner! ⭐</h2>
 
-NOTE: Keep in mind to Fork this repo. Then when deploying PlexGuide undercustom apps, it should be your username and then appsfork (if you do not change the name)
-
-## PlexGuide Installation
-
-Visit the [PlexGuide Installation Information](https://github.com/plexguide/PlexGuide.com/wiki/PlexGuide-Install-Information) area for more detailed information. 
-
-
-## PlexGuide Wiki 
-The [Wiki](https://github.com/plexguide/PlexGuide.com/wiki) will also provide more information in regards to docker, applications, and much more!
+<p align="center">
+  <table align="center" border="0">
+    <tr>
+      <td align="center"><a href="https://github.com/plexguide/PlexGuide.com/discussions"><img src="https://i.imgur.com/uUZlvY6.png" alt="Discussions" width="150"></a></td>
+      <td align="center"><a href="https://github.com/plexguide/PlexGuide.com/wiki/Change-Log"><img src="https://i.imgur.com/5sZSukx.png" alt="ChangeLog" width="150"></a></td>
+      <td align="center"><a href="https://github.com/plexguide/PlexGuide.com/wiki"><img src="https://i.imgur.com/YNf9ps0.png" alt="Wiki" width="150"></a></td>
+      <td align="center"><a href="https://github.com/plexguide/PlexGuide.com/wiki/Donations"><img src="https://i.imgur.com/1TAkRpM.png" alt="Donate" width="150"></a></td>
+    </tr>
+  </table>
+</p>
 
 ### Quick Install Command
 
@@ -16,13 +17,14 @@ The [Wiki](https://github.com/plexguide/PlexGuide.com/wiki) will also provide mo
 sudo apt-get update && sudo apt-get install -y curl && bash <(curl -s https://raw.githubusercontent.com/plexguide/Installer/v11/install_menu.sh)
 ```
 
-To Create Your Own Apps - visit & fork https://github.com/plexguide/AppsFork and make your own!
+## Important Links
+- [Lastest Deployable Apps](https://github.com/plexguide/Apps) - See All the Latest Apps You Can Deploy!
 
-### Working on PG11
+### PlexGuide v11
 
 * Simple, debloated, no fancy menus and executes for exactly what you need!
-* Works on Ubuntu 22/Ubuntu 24/Debian 12
-* To Test (Use Ubuntu or Debian) CMD Line; once installed, type `pg` or `plexguide`
+* Works on Ubuntu 22/Ubuntu 24/Debian 12 (Recommend Ubuntu Heavily)
+* Works with CloudFlare Tunnel & Traefik
 
 <p align="center">
   <table align="center">
